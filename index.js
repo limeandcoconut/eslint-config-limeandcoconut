@@ -4,7 +4,7 @@ module.exports = {
   ],
   plugins: [
     'html',
-    // TODO: [^1.0.1] Check that eslint-plugin-vue has been upgraded to work with eslint ^6
+    // TODO: [>=1.1.0] Check that eslint-plugin-vue has been upgraded to work with eslint ^6
     //   'vue',
     'unicorn',
   ],
@@ -15,7 +15,7 @@ module.exports = {
       impliedStrict: true,
     },
   },
-  env: {
+  env: { // eslint-disable-line unicorn/prevent-abbreviations
     node: true,
     browser: true,
     es6: true,
@@ -42,7 +42,7 @@ module.exports = {
     }],
     'camelcase': [2],
     'object-curly-spacing': ['error', 'never'],
-    'arrow-parens': [2, 'as-needed', { 'requireForBlockBody': true }],
+    'arrow-parens': [2, 'as-needed', {requireForBlockBody: true}],
     'padded-blocks': 'off',
     // 'no-warning-comments': 'off',
     'semi': ['error', 'never'],
@@ -55,23 +55,22 @@ module.exports = {
     'unicorn/prevent-abbreviations': [
       'error',
       {
-      checkShorthandProperties: true,
-      replacements: {
-        cmd: {
-        command: true
+        checkShorthandProperties: true,
+        replacements: {
+          cmd: { // eslint-disable-line unicorn/prevent-abbreviations
+            command: true,
+          },
+          errCb: { // eslint-disable-line unicorn/prevent-abbreviations
+            handleError: true,
+          },
+          dist: { // eslint-disable-line unicorn/prevent-abbreviations
+            distribute: true,
+            distribution: true,
+            distributable: true,
+          },
         },
-        errCb: {
-        handleError: true
-        },
-        dist: {
-        distribute: true,
-        distribution: true,
-        distributable: true,
-        },
-      }
-      }
+      },
     ],
-
 
     // Eslint unicorn
     'unicorn/catch-error-name': 'error',
@@ -187,7 +186,7 @@ module.exports = {
     'no-redeclare': 'error',
     'no-return-assign': ['error', 'always'],
     'no-script-url': 'error',
-    'no-self-assign': ['error', {props: true}],
+    'no-self-assign': ['error', {props: true}], // eslint-disable-line unicorn/prevent-abbreviations
     'no-self-compare': 'error',
     'no-sequences': 'error',
     'no-throw-literal': 'error',

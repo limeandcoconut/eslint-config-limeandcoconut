@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-limeandcoconut",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Eslint configuration by Limeandcoconut (Jacob Smith)",
   "main": "index.js",
   "scripts": {},
@@ -12,9 +12,8 @@
   },
   "dependencies": {
     "eslint": "^6.4.0",
-    "eslint-plugin-unicorn": "^10.0.0",
-    "eslint-plugin-html": "6.0.0",
-    "eslint-plugin-vue": "5.2.3"
+    "eslint-plugin-unicorn": "^11.0.0",
+    "eslint-plugin-html": "6.0.0"
   },
   "private": false,
   "keywords": [
