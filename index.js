@@ -39,6 +39,10 @@ module.exports = {
     'max-len': [1, 120, 4, {
       ignoreComments: true,
       ignoreUrls: true,
+      ignoreTrailingComments: true,
+      ignoreStrings: true,
+      ignoreTemplateLiterals: true,
+      ignoreRegExpLiterals: true,
     }],
     'camelcase': [2],
     'object-curly-spacing': ['error', 'never'],
