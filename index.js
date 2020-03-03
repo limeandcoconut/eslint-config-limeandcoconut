@@ -1,11 +1,10 @@
 module.exports = {
   extends: [
-    // 'plugin:vue/essential', // Required to support .vue files
+    'plugin:vue/essential', // Required to support .vue files
   ],
   plugins: [
     'html',
-    // TODO: [>=1.1.0] Check that eslint-plugin-vue has been upgraded to work with eslint ^6
-    //   'vue',
+    'vue',
     'unicorn',
   ],
   parserOptions: {

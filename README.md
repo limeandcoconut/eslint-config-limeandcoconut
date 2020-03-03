@@ -1,3 +1,3 @@
-An opionionated eslint config by [Jacob Smith](http://jacobsmith.tech)
+An opionionated eslint config by [Jacob Smith](https://jacobsmith.tech)
 
 - Uses eslint-plugin-unicorn 
