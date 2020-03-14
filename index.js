@@ -44,7 +44,7 @@ module.exports = {
       ignoreRegExpLiterals: true,
     }],
     'camelcase': [2],
-    'object-curly-spacing': ['error', 'never'],
+    'object-curly-spacing': ['error', 'always'],
     'arrow-parens': [2, 'as-needed', {requireForBlockBody: true}],
     'padded-blocks': 'off',
     // 'no-warning-comments': 'off',
