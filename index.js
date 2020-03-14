@@ -74,6 +74,12 @@ module.exports = {
           args: false,
           props: false,
           prop: false,
+          dev: {
+            development: false,
+          },
+          prod: {
+            production: false,
+          },
         },
       },
     ],
