@@ -52,6 +52,14 @@ module.exports = {
     'new-parens': ['error', 'always'],
     'no-negated-condition': 'off',
 
+    "vue/html-indent": ["error", 2, {
+      "attribute": 1,
+      "baseIndent": 1,
+      "closeBracket": 0,
+      "alignAttributesVertically": true,
+      "ignores": []
+    }],
+
     'unicorn/explicit-length-check': 'off',
     'unicorn/import-index': 'off',
     'unicorn/no-console-spaces': 'off',
