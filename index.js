@@ -60,6 +60,8 @@ module.exports = {
       "ignores": []
     }],
 
+    'vue/experimental-script-setup-vars': 'off',
+
     'unicorn/explicit-length-check': 'off',
     'unicorn/import-index': 'off',
     'unicorn/no-console-spaces': 'off',
