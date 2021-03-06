@@ -24,8 +24,8 @@ module.exports = {
     'indent': [2, 2, {MemberExpression: 0}],
     'comma-dangle': [2, 'always-multiline'],
     'space-before-function-paren': ['error', {
-      anonymous: 'never',
-      named: 'never',
+      anonymous: 'always',
+      named: 'always',
       asyncArrow: 'always',
     }],
     'valid-jsdoc': [2, {
