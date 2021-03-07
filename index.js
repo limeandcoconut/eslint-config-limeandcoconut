@@ -1,20 +1,23 @@
 module.exports = {
   extends: [
-    'plugin:vue/essential', // Required to support .vue files
+    // Required to support .vue files
+    'plugin:vue/essential',
   ],
   plugins: [
     'html',
     'vue',
     'unicorn',
   ],
+  parser: "@babel/eslint-parser",
   parserOptions: {
-    ecmaVersion: 11,
+    ecmaVersion: 2021,
     sourceType: 'module',
     ecmaFeatures: {
       impliedStrict: true,
     },
   },
-  env: { // eslint-disable-line unicorn/prevent-abbreviations
+  // eslint-disable-next-line unicorn/prevent-abbreviations
+  env: {
     node: true,
     browser: true,
     es6: true,
@@ -70,13 +73,16 @@ module.exports = {
       {
         checkShorthandProperties: true,
         replacements: {
-          cmd: { // eslint-disable-line unicorn/prevent-abbreviations
+          // eslint-disable-next-line unicorn/prevent-abbreviations
+          cmd: {
             command: true,
           },
-          errCb: { // eslint-disable-line unicorn/prevent-abbreviations
+          // eslint-disable-next-line unicorn/prevent-abbreviations
+          errCb: {
             handleError: true,
           },
-          dist: { // eslint-disable-line unicorn/prevent-abbreviations
+          // eslint-disable-next-line unicorn/prevent-abbreviations
+          dist: {
             distribute: true,
             distribution: true,
             distributable: true,
@@ -208,7 +214,8 @@ module.exports = {
     'no-redeclare': 'error',
     'no-return-assign': ['error', 'always'],
     'no-script-url': 'error',
-    'no-self-assign': ['error', {props: true}], // eslint-disable-line unicorn/prevent-abbreviations
+    // eslint-disable-next-line unicorn/prevent-abbreviations
+    'no-self-assign': ['error', {props: true}],
     'no-self-compare': 'error',
     'no-sequences': 'error',
     'no-throw-literal': 'error',
