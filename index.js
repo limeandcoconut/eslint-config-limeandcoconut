@@ -15,6 +15,7 @@ module.exports = {
     ecmaFeatures: {
       impliedStrict: true,
     },
+    requireConfigFile: false,
   },
   // eslint-disable-next-line unicorn/prevent-abbreviations
   env: {
