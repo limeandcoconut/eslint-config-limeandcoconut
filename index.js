@@ -49,7 +49,7 @@ module.exports = {
     }],
     'camelcase': [2],
     'object-curly-spacing': ['error', 'always'],
-    'arrow-parens': [2, 'as-needed', {requireForBlockBody: true}],
+    'arrow-parens': [2, 'as-needed', {requireForBlockBody: false}],
     'padded-blocks': 'off',
     // 'no-warning-comments': 'off',
     'semi': ['error', 'never'],
