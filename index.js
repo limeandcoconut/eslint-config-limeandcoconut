@@ -38,7 +38,7 @@ module.exports = {
         returns: 'return',
       },
     }],
-    'require-jsdoc': 1,
+    'require-jsdoc': 0,
     'max-len': [1, 120, 4, {
       ignoreComments: true,
       ignoreUrls: true,
