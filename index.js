@@ -25,6 +25,7 @@ module.exports = {
   },
   globals: {},
   rules: {
+    'func-style': ['error', 'expression'],
     'indent': [2, 2, {MemberExpression: 0}],
     'comma-dangle': [2, 'always-multiline'],
     'space-before-function-paren': ['error', {
